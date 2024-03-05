@@ -6,20 +6,51 @@ body {
   background-size: cover;
   padding: 25px 50px;
 }
+h2 {
+  color: #8af2c5;
+}
 img {
   width: 30%;
 }
 .about-candidate {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.about-candidate-general-info {
-  margin-left: 20%;
+
+h1 {
+  color: #fff;
 }
+h3 {
+  color: #fff;
+}
+
 main {
   display: flex;
+  justify-content: space-between;
 }
-.candidate-photo {
-  width: 100px;
+.candidate-name {
+  font-size: 3rem;
+}
+.navi-panel {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.navi-panel > a > img {
+  width: 60px;
+}
+.picture-shadow {
+  box-shadow: 0 0 10px rgba(20, 19, 19, 0.5);
+}
+#language-switcher {
+  width: 30px;
+}
+.certificate-link {
+  color: rgb(189, 198, 10);
+}
+.educate-prop {
+  color: cornflowerblue;
 }
 .contacts {
   display: flex;
@@ -30,6 +61,7 @@ main {
 }
 .social-network > li {
   list-style: none;
+  margin: 10px;
 }
 .social-network > li > a > img {
   width: 30px;
@@ -44,7 +76,6 @@ main {
 .phone > li > img {
   width: 30px;
 }
-
 
 footer {
   width: 100%;

@@ -8,41 +8,123 @@
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <nav class="candidate-photo">
+    <nav class="navi-panel">
       <a href="docs/Hennadii-Naumovych_frontend-devoloper.pdf" target="_blank"
         ><img src="assets/img/pdf-icon.png" alt="pdf icon"
+      /></a>
+      <a href="#"
+        ><img
+          id="language-switcher"
+          src="assets/img/language.png"
+          title="ukrainian"
+          alt="language switcher icon"
       /></a>
     </nav>
     <header class="about-candidate">
       <aside>
-        <img src="assets/img/Naumovych.jpg" alt="candidat's photo" />
+        <img
+          class="picture-shadow"
+          src="assets/img/Naumovych.jpg"
+          alt="candidat's photo"
+        />
       </aside>
       <section class="about-candidate-general-info">
-        General information about candidate
+        <h1>
+          <span class="candidate-name">Hennadii Naumovych</span> <br />
+          Front-End developer
+        </h1>
       </section>
     </header>
+    <hr />
     <main>
-      <section>
-        <article class="education-info">
-          SoftServe IT academy course of "HTML, CSS, JavaScript for beginners"
-          2022.08 - 2022.10
+      <section class="education-info">
+        <article>
+          <h2>Education</h2>
+          <h3>Beetroot Academy</h3>
+          <ul>
+            <li>
+              <h5><span class="educate-prop">Direction:</span> Front-end development</h5>
+              <h5><span class="educate-prop">Duration:</span> 29.02.2024 - nowdays</h5>
+              <h5>
+                <a class="certificate-link"
+                  href="https://beetroot.academy/courses/online/front-end"
+                  title="Course of front-end development"
+                  >Beetroot front-end development course</a
+                >
+              </h5>
+            </li>
+          </ul>
+          <h3>ScriptJedi42 <br />sj42.programmingmentor.com</h3>
+          <ul>
+            <li>
+              <h5><span class="educate-prop">Direction:</span> Front-end development</h5>
+              <h5><span class="educate-prop">Duration:</span> 336 hrs</h5>
+              <h5><span class="educate-prop">Graduated:</span> 26.12.2022</h5>
+              <h5>
+                <a class="certificate-link"
+                  href="docs/jedy-certificate.pdf"
+                  title="Certificate of ScriptJedi42"
+                  target="_blank"
+                  >Certificate</a
+                >
+              </h5>
+            </li>
+          </ul>
+          <h3>SoftServe Academy</h3>
+          <ul>
+            <li>
+              <h5>
+                <span class="educate-prop">Direction:</span> HTML5/ CSS3/ JAVASCRIPT FUNDAMENTALS
+              </h5>
+              <h5><span class="educate-prop">Duration:</span> 07.07.2022 - 29.07.2022</h5>
+              <h5><span class="educate-prop">Graduated:</span> 29.07.2022</h5>
+              <h5>
+                <a class="certificate-link"
+                  href="docs/Certificate-frontend-fundamentals.pdf"
+                  title="Certificate of front-end fundamentals"
+                  target="_blank"
+                  >Certificate</a
+                >
+              </h5>
+            </li>
+          </ul>
+          <h3>
+            Ternopil National Economic University <br />
+            now rename to West Ukrainian National University
+          </h3>
+          <ul>
+            <li>
+              <h5><span class="educate-prop">Direction:</span> computer science</h5>
+              <h5><span class="educate-prop">Duration:</span> 09.2008 - 07.2011</h5>
+              <h5><span class="educate-prop">Graduated:</span> 07.2011</h5>
+            </li>
+          </ul>
+          <h3>
+            Rivne State Agrarian College <br />
+            now rename to Rivne Professional College of National<br />
+            University of Life and Envirinmental sciences of Ukraine
+          </h3>
+          <ul>
+            <li>
+              <h5><span class="educate-prop">Direction:</span> computer science</h5>
+              <h5><span class="educate-prop">Duration:</span> 09.2004 - 07.2008</h5>
+              <h5><span class="educate-prop">Graduated:</span> 07.2008</h5>
+            </li>
+          </ul>
         </article>
         <article class="skills">
-          <header>FrontEnd skills</header>
+          <header><h2>FrontEnd skills</h2></header>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
-            <li>PreProcessors</li>
             <li>Git</li>
-            <li>React</li>
-            <li>SQL</li>
             <li>Responsible design</li>
             <li>principles of OOP</li>
           </ul>
         </article>
         <article class="language">
-          <header>Languages</header>
+          <header><h2>Languages</h2></header>
           <ul>
             <li>English B1</li>
             <li>Ukraine native</li>
@@ -50,8 +132,9 @@
           </ul>
         </article>
       </section>
-      <section>
-        <article class="work-experience">
+      <section class="work-experience">
+        <article>
+          <h2>Experience</h2>
           work-experiencework-experiencework-experiencework-experiencework-experience
         </article>
       </section>
@@ -60,15 +143,8 @@
       <nav class="contacts">
         <ul class="phone">
           <li>
-            <img src="assets/img/phone-icon.png" alt="phone icon" />tel. +33 33333333
-          </li>
-          <li>
-          <img src="assets/img/whatsapp-icon.png" alt="whatsapp icon"
-            />
-          </li>
-          <li>
-           <img src="assets/img/viber-icon.png" alt="viber icon"
-            />
+            <img src="assets/img/phone-icon.png" alt="phone icon" /> tel. +33
+            33333333
           </li>
         </ul>
         <ul class="social-network">
