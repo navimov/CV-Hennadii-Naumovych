@@ -4,10 +4,10 @@ html {
 body {
   background-image: url(../assets/img/background.png);
   background-size: cover;
-  padding: 50px 100px;
+  padding: 25px 50px;
 }
 img {
-  width: 300px;
+  width: 30%;
 }
 .about-candidate {
   display: flex;
@@ -17,4 +17,35 @@ img {
 }
 main {
   display: flex;
+}
+.candidate-photo {
+  width: 100px;
+}
+.contacts {
+  display: flex;
+  justify-content: space-around;
+}
+.social-network {
+  display: flex;
+}
+.social-network > li {
+  list-style: none;
+}
+.social-network > li > a > img {
+  width: 30px;
+}
+.phone {
+  display: flex;
+}
+.phone > li {
+  list-style: none;
+  padding-left: 40px;
+}
+.phone > li > img {
+  width: 30px;
+}
+
+
+footer {
+  width: 100%;
 }
